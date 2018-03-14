@@ -45,7 +45,7 @@ class NotesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "Notes"
+        title = "Notas"
         
         fetchNotes()
         //setupNotificationHandling()
@@ -170,11 +170,15 @@ class NotesViewController: UIViewController {
 extension NotesViewController: UITableViewDelegate, UITableViewDataSource {
     
     func configure(_ cell:NoteTableViewCell, at indexPath:IndexPath) {
+        
+        let formatter = DateFormatter()
+        formatter.dateFormat = "dd/MM/yy HH:mm:ss"
+        
         let note = fetchResultsController.object(at: indexPath)
         
         cell.titleLabel?.text    = note.title
         cell.contentsLabel?.text = note.contents
-        cell.updateAtLabel?.text = "\(note.updateAtAsDate)"
+        cell.updateAtLabel?.text = formatter.string(from: note.updateAtAsDate)
         cell.tagsLabel?.text     = note.alphabetizedTagsAsString ?? "Não possui tags"
         
         if let color = note.category?.color {

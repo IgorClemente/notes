@@ -242,8 +242,8 @@
 			children = (
 				D0448CB92031F1A1007AC12A /* Notes.storyboard */,
 				D02600D620409E4500276071 /* CategoriesViewController.storyboard */,
-				D0448CBE2031F1A2007AC12A /* LaunchScreen.storyboard */,
 				D004398D2048E19C0083DC1F /* Tags.storyboard */,
+				D0448CBE2031F1A2007AC12A /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";

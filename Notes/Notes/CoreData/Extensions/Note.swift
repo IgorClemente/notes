@@ -11,12 +11,16 @@ import Foundation
 extension Note {
     
     var updateAtAsDate: Date {
-        guard let updateAt = updateAt else { return Date() }
+        guard let updateAt = updateAt else {
+            return Date()
+        }
         return Date(timeIntervalSince1970: updateAt.timeIntervalSince1970)
     }
     
     var createAtAsDate: Date {
-        guard let createAt = createAt else { return Date() }
+        guard let createAt = createAt else {
+            return Date()
+        }
         return Date(timeIntervalSince1970: createAt.timeIntervalSince1970)
     }
     
