@@ -1,5 +1,5 @@
 <h1 align="center" background="#000000" >
-    <img alt="GoStack" src="logo.png" width="100px" />
+    <img alt="GoStack" src="logo.png" width="500px" />
 </h1>
 
 <h3 align="center">
@@ -56,8 +56,8 @@ Com esse framework é possível aproximar Orientação a Objetos a manipulação
 ## :iphone: Screenshot
 
 <h2 align="center">
-  <img src="https://github.com/IgorClemente/CoreData/blob/master/Screenshots/screenshot01.png" width="428" height="970" />
-  <img src="https://github.com/IgorClemente/CoreData/blob/master/Screenshots/screenshot02.png" width="428" height="970" />
+  <img src="https://github.com/IgorClemente/CoreData/blob/master/Screenshots/screenshot01.png" width="500" height="970" />
+  <img src="https://github.com/IgorClemente/CoreData/blob/master/Screenshots/screenshot02.png" width="500" height="970" />
 </h2>
 
 ## :memo: Licença
