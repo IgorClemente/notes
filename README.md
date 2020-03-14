@@ -56,8 +56,8 @@ Com esse framework é possível aproximar Orientação a Objetos a manipulação
 ## :iphone: Screenshot
 
 <h2 align="center">
-  <img src="https://github.com/IgorClemente/CoreData/blob/master/Screenshots/screenshot01.png" width="600" height="850" />
-  <img src="https://github.com/IgorClemente/CoreData/blob/master/Screenshots/screenshot02.png" width="600" height="850" />
+  <img src="https://github.com/IgorClemente/CoreData/blob/master/Screenshots/screenshot01.png" width="600" height="900" />
+  <img src="https://github.com/IgorClemente/CoreData/blob/master/Screenshots/screenshot02.png" width="600" height="900" />
 </h2>
 
 ## :memo: Licença
